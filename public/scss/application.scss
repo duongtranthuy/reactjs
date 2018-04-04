@@ -1,0 +1,39 @@
+// app 
+
+// form add/edit
+
+// button add new todo 
+.add-new-todo {
+	padding: 20px 0;
+}
+
+// input controll search/filter
+.action-control-wrapper {
+	position: relative;
+	.form-group {
+		input[type=text] {
+	    width: calc(100% - 50px);
+		}
+	}
+	button {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+// show todo list 
+
+// task element
+// Task form 
+.panel {
+	.panel-heading {
+		position: relative;
+		.btn-close {
+			cursor: pointer;
+			position: absolute;
+			top: 8px;
+			right: 10px;
+		}
+	}
+}
